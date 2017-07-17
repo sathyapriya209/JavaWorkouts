@@ -5,12 +5,13 @@ import java.util.Arrays;
 public class Anagrams {
 
 	public static void main(String[] args) {
-		String a ="hello";
-		String b ="hello";
+		String a ="silent";
+		String b ="Listen";
 		char[] ch =a.toLowerCase().toCharArray();
 		char[] ch1 = b.toLowerCase().toCharArray();
 		Arrays.sort(ch);
 		Arrays.sort(ch1);
+		System.out.println(ch);
 		a=String.valueOf(ch);
 		b=String.valueOf(ch1);
 		

@@ -54,9 +54,18 @@ public class Employee  {
 			return false;
 		return true;
 	}
+	
+	
+	
 	@Override
 	public String toString() {
-		return "Employee [name=" + name + ", age=" + age + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append("Employee [name=");
+		builder.append(name);
+		builder.append(", age=");
+		builder.append(age);
+		builder.append("]");
+		return builder.toString();
 	}
 	public static void main(String[] args) {
 		List<Employee> li = new ArrayList<Employee>();
