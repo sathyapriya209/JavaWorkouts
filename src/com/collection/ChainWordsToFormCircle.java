@@ -6,7 +6,7 @@ public class ChainWordsToFormCircle {
 		String str[] = { "geek", "king", "gingy" };
 		boolean isCircle = true;
 		for (int i = 0; i < str.length; i++) {
-			String str1 = str[i];
+			String str1 = str[i ];
 			String str2;
 			if(i == str.length -1) {
 				str2 = str[0];

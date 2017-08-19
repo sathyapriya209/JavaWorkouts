@@ -2,7 +2,7 @@ package com.collection;
 
 import java.util.Arrays;
 
-public class Anagrams {
+public abstract class Anagrams {
 
 	public static void main(String[] args) {
 		String a ="silent";
@@ -22,7 +22,8 @@ public class Anagrams {
 		else{
 			System.out.println("Not Anagrams");
 		}
-			
+		Anagrams aa = new Anagrams() {
+		};	
 		
 	}
 

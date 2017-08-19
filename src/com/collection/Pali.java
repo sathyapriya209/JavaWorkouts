@@ -4,7 +4,7 @@ public class Pali {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "malialam";
+		String str = "malayalam";
 		boolean status = false;
 		char[] ch = str.toCharArray();
 		int j=ch.length-1;

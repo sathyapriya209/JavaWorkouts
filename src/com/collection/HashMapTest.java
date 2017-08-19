@@ -1,8 +1,11 @@
 package com.collection;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
+import java.util.Set;
 
 public class HashMapTest {
 
@@ -16,6 +19,11 @@ public class HashMapTest {
 			int phone = in.nextInt();
 			map1.put(name, phone);
 			in.nextLine();
+		}
+		Set<Entry<String, Integer>> se =  map1.entrySet();
+		Iterator<Entry<String, Integer>> it = se.iterator();
+		while(it.hasNext()) {
+			
 		}
 		while (in.hasNext()) {
 			String s = in.nextLine();

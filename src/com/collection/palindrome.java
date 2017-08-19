@@ -1,9 +1,10 @@
+
 package com.collection;
 
 public class palindrome {
 
 	public static void main(String[] args) {
-		String str = "malialam";
+		String str = "maaalialam";
 		char[] ch = str.toCharArray();
 		int j = str.length() - 1;
 		boolean ispalindrome = false;
